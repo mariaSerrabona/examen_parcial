@@ -2,13 +2,15 @@
 <!--
 ENUNCIADO ACTIVIDAD 1
 
-* 		Introducción al ejercicio(SOLAMENTE EN EL README): 
-* 		 Análisis de datos de navegación y conversión de usuarios. 
-* 		 Los usuarios cuando quieren contratar un producto lo buscan en internet, y llegan en la mayoría de los casos a unas páginas web especializadas en conversión llamadas landings. Estas landings suelen contener un teléfono al cual el usuario puede llamar al call center de la compañía y/o también un formulario en el cual dejan su nombre y su teléfono para que dicho call center se ponga en contacto con ellos. Existen diferentes tipos de conversiones siendo los más comunes: 
-* 		 •	simplemente el contacto con el call center ya sea a través de una llamada o del envío del formulario. •	Contratación del producto   
-* 		11:59 OBJETIVO DEL EJERCICIO (README Y ES NUESTRO PROJECT(de momentos)) 
+* 		#Introducción al ejercicio(SOLAMENTE EN EL README):
+
+* 		##Análisis de datos de navegación y conversión de usuarios.
+* 		Los usuarios cuando quieren contratar un producto lo buscan en internet, y llegan en la mayoría de los casos a unas páginas web especializadas en conversión llamadas landings. Estas landings suelen contener un teléfono al cual el usuario puede llamar al call center de la compañía y/o también un formulario en el cual dejan su nombre y su teléfono para que dicho call center se ponga en contacto con ellos. Existen diferentes tipos de conversiones siendo los más comunes:
+* 		•	simplemente el contacto con el call center ya sea a través de una llamada o del envío del formulario.
+      •	Contratación del producto   
+* 		OBJETIVO DEL EJERCICIO (README Y ES NUESTRO PROJECT(de momentos)) 
 * 		 El cliente es una compañía de coches y nos pide que le realicemos informes sobre las visitas a las landings de sus productos y las conversiones.  
-* 		12:00 1.-PROYECTO 1: CREACIÓN Y MEJORA DE LOS FICHEROS Y MODELO (PROYECT 1) 
+* 		 1.-PROYECTO 1: CREACIÓN Y MEJORA DE LOS FICHEROS Y MODELO (PROYECT 1) 
 * 		 1)	Leer los datos con python. Ficheros de navegación y de conversión (ISSUES) 2)	Separar los datos en columnas, y obtener para cada línea de navegación: campaña, adgoup, advertisement y site link que se obtiene de la columna URL. (ISSUES) 3)	Identificar si hay usuarios repetidos: id_user, gclid, cookie (ISSUES) 		Para los que no tienen id_user, hay que mirar el gclid, y si tampoco está hay que mirar la cookie (ISSUES) 		Y ordenar los datos según ts(ISSUES) 4)	Unir los datos de navegación ya tratados con los datos de conversiones,creando una columna de 0 y 1 indicando si el usuario no ha convertido o si ha convertido.  	La unión se hace a partir de la columna id_suite, si esta está vacía sería por la de gclid, y si esta está vacía también por cookie. 	Nota: tenemos 2 opciones (ISSUES) 	a)	Si hay usuarios repetidos nos quedamos con un solo dato (ISSUES/COMPROBAR QUE HAY CON UN COMMIT) 	b)	Si nos quedamos con todos los datos repetidos buscar el más cercano a la conversión (ISSUES/ COMPROBAR EN UN NUEVO COMMIT) 5)	Con estos datos ya unidos y tratados debemos realizar diferentes informes que se proponen en el apartado siguiente (Entrega individual)  
 * 		12:00 2.-PROYECTO 2: CREACIÓN DE LOS INFORMES DE LOS APARTADOS 
 * 		 1)	Cuántas visitas recibe en el día el cliente (ISSUES) 		o Cuántas de ellas convierten y cuántas no (en 😵  (ISSUES) 2)	Por tipo de conversión (CALL o FORM), ¿cuántas hay de cada una? (ISSUES) 3)	Porcentaje de usuarios recurrentes sobre el total de usuarios (ISSUES) 4)	Coche más visitado. ¿Es el que más convierte? (ISSUES)
