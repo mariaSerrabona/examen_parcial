@@ -1,5 +1,5 @@
 import pandas as pd
 import numbers as np
 
-def importar_csv (archivo):
-    return 
+def leer_csv (archivo):
+    return pd.read_csv(archivo, sep = ';')
