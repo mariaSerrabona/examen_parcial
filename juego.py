@@ -45,7 +45,7 @@ class Conventions:
     @staticmethod
     def generar_nombre_casilla(x, y):
         return Conventions.generar_num_linea(x) +\
-               Conventions.generar_num_columna(y)
+                Conventions.generar_num_columna(y)
 
 
 class Case:
@@ -251,4 +251,6 @@ def jugar():
 
         if not elegir_jugarOtra():
             return
+
+
 
